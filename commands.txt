@@ -1,0 +1,9 @@
+https://api.adviceslip.com/#endpoint-random
+#https://funtranslations.com/api/
+#http://servicos.cptec.inpe.br/XML/
+
+
+Commands:
+    create topic:
+        bin/kafka-topics.sh --create --topic ADVICES --bootstrap-server 127.0.0.1:9092
+        
